@@ -6,11 +6,25 @@ body, h1, p, a {
     text-align: center;
 }
 
+/* Background Style */
+body {
+    background: linear-gradient(135deg, #ff4d4d, #ff9999);
+    color: #fff;
+}
+
 /* Header Style */
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
-    padding: 20px;
+    padding: 30px 20px;
+    position: relative;
+    border-bottom: 5px solid #ff3333;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 /* Main Content Style */
@@ -22,25 +36,33 @@ main {
     width: 300px;
     height: auto;
     margin: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.05);
 }
 
 .join-btn {
     display: inline-block;
-    background-color: #ff0000;
+    background-color: #ff3333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .join-btn:hover {
     background-color: #cc0000;
+    transform: scale(1.1);
 }
 
 /* Footer Style */
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 10px;
     position: fixed;
