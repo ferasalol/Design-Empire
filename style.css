@@ -8,7 +8,7 @@ body, h1, p, a {
 
 /* Background Style */
 body {
-    background: linear-gradient(135deg, #ff4d4d, #ff9999);
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
     color: #fff;
 }
 
@@ -18,7 +18,7 @@ header {
     color: #fff;
     padding: 30px 20px;
     position: relative;
-    border-bottom: 5px solid #ff3333;
+    border-bottom: 5px solid #1e90ff;
 }
 
 .logo {
@@ -45,19 +45,19 @@ main {
     transform: scale(1.05);
 }
 
-.join-btn {
-    display: inline-block;
-    background-color: #ff3333;
-    color: #fff;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: background-color 0.3s, transform 0.3s;
+/* Discord Icon Button Style */
+.discord-icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 15px rgba(30, 144, 255, 0.8), 0 0 25px rgba(30, 144, 255, 0.5), 0 0 35px rgba(30, 144, 255, 0.2);
 }
 
-.join-btn:hover {
-    background-color: #cc0000;
+.discord-icon img:hover {
     transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(30, 144, 255, 1), 0 0 35px rgba(30, 144, 255, 0.8), 0 0 45px rgba(30, 144, 255, 0.5);
 }
 
 /* Footer Style */
