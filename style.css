@@ -1,0 +1,49 @@
+/* Basic reset */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Header Style */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Main Content Style */
+main {
+    padding: 20px;
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.join-btn {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.join-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Footer Style */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
