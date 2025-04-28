@@ -1,37 +1,78 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demon Store</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>متجر تصاميم ديسكورد</title>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #0e0e0e;
+            color: white;
+            text-align: center;
+        }
+        header, footer {
+            padding: 20px;
+            background-color: #1a1a1a;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .item {
+            background-color: #1f1f1f;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            width: 250px;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .buttons {
+            margin: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #5865F2;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <img src="your-image-path.png" alt="Demon Store Logo" class="logo">
-        <h1>مرحبًا بك في Demon Store</h1>
-        <p>انضم إلى سيرفرنا واستمتع بتجربة مميزة!</p>
-    </header>
 
-    <!-- Main Content Section -->
-    <main>
-        <section class="images">
-            <img src="https://c.top4top.io/p_31638gfqx0.jpg" alt="Image 1">
-            <img src="https://f.top4top.io/p_31631nges0.png" alt="Image 2">
-        </section>
+<header>
+    <h1>متجر تصاميم وبكجات ديسكورد</h1>
+</header>
 
-        <!-- Discord Icon Link -->
-        <section class="join">
-            <a href="https://discord.com/invite/EGXpVFNFfb" class="discord-icon">
-                <img src="discord-icon.png" alt="Join our Discord">
-            </a>
-        </section>
-    </main>
+<section class="gallery">
+    <div class="item">
+        <img src="رابط-صورة-التصميم-1" alt="تصميم 1">
+        <p>وصف مختصر للتصميم</p>
+    </div>
+    <div class="item">
+        <img src="رابط-صورة-التصميم-2" alt="تصميم 2">
+        <p>وصف مختصر للتصميم</p>
+    </div>
+    <!-- يمكنك إضافة المزيد من التصاميم -->
+</section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Demon Store. جميع الحقوق محفوظة.</p>
-    </footer>
+<section class="buttons">
+    <a class="btn" href="رابط-سيرفرك-على-ديسكورد" target="_blank">انضم إلى السيرفر</a>
+    <a class="btn" href="https://discord.com/users/معرفك" target="_blank">تواصل معي خاص</a>
+</section>
+
+<footer>
+    <p>حقوق النشر © 2025</p>
+</footer>
+
 </body>
 </html>
